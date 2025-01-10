@@ -44,7 +44,7 @@ function print(price: number, quantity: number, etat: string) {
   }
   
     
-  let total_taxe = total - (total* taxe) / 100;
+  let total_taxe = total + (total* taxe) / 100;
   return (
     "quantity : " +
     quantity +
@@ -52,7 +52,7 @@ function print(price: number, quantity: number, etat: string) {
     price +
     "€" +
     " => TTC : " +
-    total_taxe +
+    total_taxe.toFixed(2) +
     "€"
   );
 }
