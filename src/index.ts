@@ -57,5 +57,5 @@ function print(price: number, quantity: number, etat: string) {
   );
 }
 
-console.log(print(1000, 4, "AL"));
+console.log(print(270.99, 978, "UT"));
 

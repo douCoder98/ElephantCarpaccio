@@ -10,5 +10,7 @@
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
-  }
+  },
+  "repository": "https://github.com/douCoder98/ElephantCarpaccio.git",
+  "author": "Papa Abdou Mbodji <abdoumbodji1401@gmail.com>"
 }
